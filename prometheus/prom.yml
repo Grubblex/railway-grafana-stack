@@ -10,5 +10,4 @@ scrape_configs:
   - job_name: 'bull-monitor'
     scrape_interval: 5s
     static_configs:
-      # The target needs to be a list and include the port.
       - targets: ['bull-monitor.railway.internal:3000']
